@@ -358,6 +358,9 @@ OFFER SECTION
 
 
 }
+.map{
+    border: 1px solid rgb(83, 83, 83);
+}
 .benefit-item {
     text-align: center;
     border-top: 1px solid #e2e2e2;
