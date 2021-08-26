@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Beauty Spa - HTML5 Responsive template</title>
+        <title>Gentle Hands Reflexology</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -39,17 +39,14 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">How It Works</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#top-button" class="scroll">Home</a></li>
+                    <li><a href="#what" class="scroll">How It Works</a></li>
+                    <li><a href="#book" class="scroll">Booking</a></li>
+                    <li><a href="#benefits" class="scroll">Benefits</a></li>
+                    <li><a href="#treatment" class="scroll">Treatment</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-search"></i></a></li>
-                    <li><a href="#"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+                <ul class="nav navbar-nav navbar-right contactbutton">
+                    <li><a href="#" data-toggle="modal" data-target="#contact"><i class="fa fa-phone"></i> Contact Us</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -61,255 +58,91 @@
                     <div class="col-md-12 wow fadeInDown animated">
                         <div class="slider-item">
                             <img src="image/logo-simple.png" width="117" height="144" alt="">
-                            <h2>PROFESSIONALS RELAX TODAY</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h2>PROFESSIONAL REFLEXOLOGY THERAPY</h2>
+                            <p>Find your way to relax, your feet are in gentle hands.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="purilfy-section">
+        <div class="purilfy-section" id="what">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="purifliy-item wow fadeInDown animated">
-                            <h3>CLEANSE. PURIIFY. ENERGIZE</h3>
-                            <p>There is an anti-aging revolution occurring in healthcare today and that you are the main beneficiary. Nowhere in the field of anti-aging medicine are the breakthroughs and technological advances more exciting, more relevant and more readily available for immediate application and benefit to you than in the field of facial rejuvenation.</p>
+                            <h3>HOW IT WORKS</h3>
+                            <p>Reflexology is the holistic understanding, study and practice of treating points and areas in the feet and hands that relate to corresponding parts of the body. Using precise hand and finger techniques, a reflexologist may improve circulaton, induce relaxation and enable homeostatsis.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="offer-section">
+        <div class="offer-section" id="book">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 wow fadeInDown animated">
-                        <h4>Our Special Offer</h4>
-                        <h2>Oil Massage 45 min. for Only $59</h2>
+                        <h4>BOOK NOW</h4>
+                        <h2>Reflexology Therapy Session: &euro;55</h2>
                         <a href="#">Make An Appointment</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="benefit-section">
+        <div class="benefit-section" id="benefits">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="section-title">YOUR BENEFITS TO WELL BEING</h2>
+                        <h2 class="section-title">BENEFITS</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.2s">
-                        <h3>Benefit 1</h3>
-                        <a href="#"><img src="image/beneifit1.png" width="207" height="208" class="img-responsive" alt=""></a>
-                        <h2>Spa</h2>
-                        <p>Start your day with Purgo Morning Detox Tea.</p>
+                        <img src="image/stress.png" style="text-align: center" width="207" height="208" class="img-responsive" alt="">
+                        <h2>STRESS</h2>
+                        <p>Reduces stress and anxiety.</p>
                     </div>
                     <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.4s">
-                        <h3>Benefit 2</h3>
-                        <a href="#"><img src="image/benefit2.png" width="207" height="208"  class="img-responsive" alt=""></a>
-                        <h2>BEAUTY</h2>
-                        <p>Eat wholesome, nutritious food throughout the day.</p>
+                        <img src="image/pain.png" width="207" height="208"  class="img-responsive" alt="">
+                        <h2>PAIN</h2>
+                        <p>Eases back pain and discomfort.</p>
                     </div>
                     <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.6s">
-                        <h3>Benefit 3</h3>
-                        <a href="#"><img src="image/benefit3.png" width="225" height="226" class="img-responsive"  alt=""></a>
-                        <h2>YOGA</h2>
-                        <p>Exercise for 30 minutes.</p>
+                        <img src="image/sleep.png" width="225" height="226" class="img-responsive"  alt="">
+                        <h2>SLEEP</h2>
+                        <p>Improves sleep cycles and insomnia.</p>
                     </div>
                     <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.8s">
-                        <h3>Benefit 4</h3>
-                        <a href="#"><img src="image/benefit4.png" width="207" height="208" class="img-responsive"  alt=""></a>
-                        <h2>GYM</h2>
-                        <p>Relax with Purgo Evening Cleanse Tea.</p>
+                        <img src="image/immune.png" width="207" height="208" class="img-responsive"  alt="">
+                        <h2>IMMUNE SYSTEM</h2>
+                        <p>Bolsters immune system.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="message-section">
+        <div class="message-section" id="treatment">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 wow fadeInDown animated">
-                        <h2 class="section-title">MASSAGE RITUALS</h2>
-                        <p>Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores. Stet clita kasd gubergren, no sea takimata sanctus. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut ispim labore et dolore magna aliquyam erat.</p>
+                        <h2 class="section-title">TREATMENT</h2>
+                        <p>A reflexology treatment lasts for approximately one hour. As it is the feet which are generally treated you simply remove your socks and shoes. You will be invited to sit or lie on a comfortable treatment chair.<br /><br />
+                            The reflexologist will then use their hands to apply precise pressure techniques to the feet treating specific points which correspond to all organs and systems of the body.<br /><br />
+                            Following treatment, any significant findings will be discussed with you. As the effects of reflexology are cumulative, many people find it beneficial to continue with regular treatments.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="news-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 news-item">
-                        <div class="news-deatils wow fadeInDown animated" data-wow-delay="0.2s">
-                            <div class="col-md-6 thumbnail">
-                                <img src="image/blog1.png" width="249" height="272" alt="">
-                            </div>
-                            <div class="col-md-6 content">
-                                <span>23rd Dec, 2015</span>
-                                <p>Yoga is Possible for Anyone Who Really Wants It</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 news-item">
-                        <div class="news-deatils wow fadeInDown animated" data-wow-delay="0.5s">
-                            <div class="col-md-6 thumbnail">
-                                <img src="image/blog2.png" width="249" height="272" alt="">
-                            </div>
-                            <div class="col-md-6 content">
-                                <span>23rd Dec, 2015</span>
-                                <p>Have you recently tried facial wash? If you have...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="client-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="section-title">Clients about Us</h2>
-                        <p class="title-cap">Best Teachers Are Here For You</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="client-item wow fadeInDown animated" data-wow-delay="0.2s">
-                            <div class="client-content">
-                                <i class="fa fa-quote-left"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <a href="#"><img src="image/client1.png" alt=""> </a>
-                            <h3>Tanny Tan</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="client-item wow fadeInDown animated" data-wow-delay="0.5s">
-                            <div class="client-content">
-                                <i class="fa fa-quote-left"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <a href="#"><img src="image/client2.png"  alt=""> </a>
-                            <h3>Georgie Drake</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="client-item wow fadeInDown animated" data-wow-delay="0.8s">
-                            <div class="client-content">
-                                <i class="fa fa-quote-left"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-                            <a href="#"><img src="image/client.png"alt=""> </a>
-                            <h3>Elva McCoy</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="blog-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="title-section">Blog Post</h2>
-                        <p class="title-cap">Clients review about us</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 wow fadeInDown animated" data-wow-delay="0.2s">
-                        <div class="row">
-                            <div class="col-md-3 blog-thumb">
-                                <a href="#"><img src="image/blog-item1.png" width="127" height="190" alt=""></a>
-                            </div>
-                            <div class="col-md-9 blog-content">
-                                <h3>Mina Norman</h3>
-                                <p>When warm weather arrives, it's only natural to want to get out and enjoy the sun's glorious rays.It's also important to protect your skin to keep it looking healthy and youthful.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeInDown animated" data-wow-delay="0.5s">
-                        <div class="row">
-                            <div class="col-md-3 blog-thumb">
-                                <a href="#"><img src="image/blog-item2.png" width="127" height="190" alt=""></a>
-                            </div>
-                            <div class="col-md-9 blog-content">
-                                <h3>Anny Ane</h3>
-                                <p>Becoming aware of your salon's surroundings and sanitary procedures is critical to keep your experience pleasant and healthy. Here are a few tips from BTG Cosmetics Inc</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="table-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="section-title">Pricing Table</h2>
-                        <p class="section-cap">Our Pricing list for The Customers</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.2s">
-                        <div class="table-item sliver">
-                            <h2>50<sup>$</sup></h2>
-                            <h3>SILVER</h3>
-                            <ul>
-                                <li>Full Body Massage</li>
-                                <li>Deep Tissue Massage</li>
-                                <li>Hot Stone Massage</li>
-                                <li>Body Polish (1 hr)</li>
-                            </ul>
-                            <a href="#">Purchase</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.5s">
-                        <div class="table-item gold">
-                            <h2>70<sup>$</sup></h2>
-                            <h3>GOLD</h3>
-                            <ul>
-                                <li>Full Body Massage</li>
-                                <li>Deep Tissue Massage</li>
-                                <li>Hot Stone Massage</li>
-                                <li>Body Polish (1 hr)</li>
-                            </ul>
-                            <a href="#">Purchase</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 table-content wow fadeInDown animated" data-wow-delay="0.81s">
-                        <div class="table-item platinum">
-                            <h2>90<sup>$</sup></h2>
-                            <h3>PLATINUM</h3>
-                            <ul>
-                                <li>Full Body Massage</li>
-                                <li>Deep Tissue Massage</li>
-                                <li>Hot Stone Massage</li>
-                                <li>Body Polish (1 hr)</li>
-                            </ul>
-                            <a href="#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-section">
+        <div class="footer-section" id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
                         <ul class="social-media">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-md-7 copyright">
@@ -320,9 +153,8 @@
                             <li><a href="#">Testimonials</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a data-toggle="modal" data-target="#exampleModal">Contact</a></li>
                         </ul>
-                        Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a></p>
                     </div>
                     <div class="col-md-3">
                         <div class="top-button">
@@ -330,6 +162,23 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                </div>
+                <div class="modal-body">
+                  <p><i class="fa fa-phone"></i> Call us at <b>083 0125164</b><br /><br />
+                  <i class="fa fa-envelope"></i> <a href="mailto:sophie@gentlehands.clinic">sophie@gentlehands.clinic</a></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
             </div>
         </div>
 
