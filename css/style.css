@@ -278,7 +278,7 @@ Purilfy section
  */
 .purilfy-section {
     color: #fff;
-    background: #2e582e;
+    background: #1a361a;
     display: block;
     text-align: center;
     padding: 105px 0;
@@ -352,7 +352,7 @@ OFFER SECTION
 }
 
 .section-title {
-    color:  #2e582e;
+    color:  #1a361a;
     font-family:'ProximaNovaA-Semibold';
     font-weight: 600;
 
@@ -391,7 +391,7 @@ OFFER SECTION
 }
 
 .benefit-item > h2 {
-    color: #2e582e;
+    color: #1a361a;
     font-family:'ProximaNovaA-Bold';
     font-size: 18px;
     font-weight: 700;
@@ -407,7 +407,7 @@ OFFER SECTION
     min-height: 65px;
 }
 .benefit-item:hover{
-    background: #2e582e;
+    background: #1a361a;
     color: #e42a97
 }
 .benefit-item:hover p{
@@ -460,7 +460,7 @@ FOOTER SECTION
     text-align: center;
     padding: 30px 0;
     color: #fff;
-    background: #2e582e;
+    background: #1a361a;
 }
 
 .col-md-3 > h3 {
@@ -569,7 +569,7 @@ FOOTER SECTION
 
 }
 .modal-title{
-    color: #2e582e;
+    color: #1a361a;
     font-weight: 700;
     font-size: 34px;
     font-family:'ProximaNovaA-Bold';
