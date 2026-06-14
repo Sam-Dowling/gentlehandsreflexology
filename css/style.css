@@ -168,7 +168,7 @@ p { color: var(--muted); }
 /* ---------- Benefits ---------- */
 .benefits { background: var(--cream-warm); }
 .benefit-grid {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px;
 }
 .benefit-card {
     background: #fff; border-radius: var(--radius); padding: 38px 26px;
